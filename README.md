@@ -37,7 +37,7 @@ I also should figure out which are just unreliable, which's sites are down, and 
   - [ ] Fix or remove Houzz check
   - [ ] Fix or remove ColourLovers check
   - [ ] Fix or remove Trip check
-- [ ] Rename Github to GitHub
+- [x] Rename Github to GitHub
 - [ ] Alphabetize the checks
 - [ ] Add the website name to the created document
 - [ ] Add more checks
