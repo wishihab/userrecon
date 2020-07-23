@@ -161,7 +161,7 @@ fi
 
 ## GITHUB
 
-printf "\e[1;77m[\e[0m\e[1;92m+\e[0m\e[1;77m] Github: \e[0m"
+printf "\e[1;77m[\e[0m\e[1;92m+\e[0m\e[1;77m] GitHub: \e[0m"
 check1=$(curl -s -i "https://www.github.com/$username" -H "Accept-Language: en" -L --user-agent '"Mozilla/5.0 (X11; U; Linux i686; en-US; rv:0.9.3) Gecko/20010801"' | grep -o '404 Not Found' ; echo $?)
 
 if [[ $check1 == *'0'* ]] ; then 
