@@ -7,7 +7,9 @@ This is useful if you are running an investigation to determine the usage of the
 
 ![ur](https://user-images.githubusercontent.com/34893261/43992221-49d40f1c-9d52-11e8-8f58-24ae4aa11dd6.png)
 
-TODO:
+## TODO:
+
+I've noticed that a lot of checks are unreliable, I'm not sure how they'll be fixed. I'll have to look into it sometime.
 
 - [ ] Identify what checks don't work
   - [ ] Fix or remove Instagram check
