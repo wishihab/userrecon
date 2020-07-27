@@ -9,11 +9,6 @@ This is useful if you are running an investigation to determine the usage of the
 
 ## TODO:
 
-I've noticed that a lot of checks are unreliable, I'm not sure how they'll be fixed. I'll have to look into it sometime.
-
-I also should figure out which are just unreliable, which's sites are down, and which are consistently wrong.
-
-- [ ] Identify what checks don't work
   - [ ] Fix or remove Instagram check
   - [ ] Fix or remove Facebook check
   - [ ] Fix or remove Twitter check
@@ -42,3 +37,4 @@ I also should figure out which are just unreliable, which's sites are down, and 
 - [ ] Add the website name to the created document
 - [ ] Add more checks
 - [ ] Possibly add in controlled variations?
+- [ ] Add triple (maybe more?) checking to determine which are false-positives, or false negatives
