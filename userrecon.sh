@@ -115,7 +115,7 @@ check=$(curl -s "https://plus.google.com/+$username/posts" -L -H "Accept-Languag
 
 if [[ $check == *'1'* ]]; then
 printf "\e[1;92m Found!\e[0m https://plus.google.com/+%s/posts\n" $username
-printf "https://plus.google.com/+%s/posts\n" $username >> $username
+printf "https://plus.google.com/+%s/posts\n" $username >> $username.txt
 elif [[ $check == *'0'* ]]; then
 printf "\e[1;93mNot Found!\e[0m\n"
 fi
@@ -161,7 +161,7 @@ fi
 
 ## GITHUB
 
-printf "\e[1;77m[\e[0m\e[1;92m+\e[0m\e[1;77m] Github: \e[0m"
+printf "\e[1;77m[\e[0m\e[1;92m+\e[0m\e[1;77m] GitHub: \e[0m"
 check1=$(curl -s -i "https://www.github.com/$username" -H "Accept-Language: en" -L --user-agent '"Mozilla/5.0 (X11; U; Linux i686; en-US; rv:0.9.3) Gecko/20010801"' | grep -o '404 Not Found' ; echo $?)
 
 if [[ $check1 == *'0'* ]] ; then 
@@ -652,8 +652,8 @@ if [[ $check1 == *'0'* ]] ; then
 printf "\e[1;93mNot Found!\e[0m\n"
 elif [[ $check1 == *'1'* ]]; then 
 
-printf "\e[1;92m Found!\e[0m https://foursquare.com/%s\n" $username
-printf "https://foursquare.com/%s\n" $username >> $username.txt
+printf "\e[1;92m Found!\e[0m https://www.roblox.com/user.aspx?username=%s\n" $username
+printf "https://www.roblox.com/user.aspx?username=%s\n" $username >> $username.txt
 fi
 
 ## Gumroad
