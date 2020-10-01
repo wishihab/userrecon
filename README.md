@@ -38,3 +38,14 @@ This is useful if you are running an investigation to determine the usage of the
 - [ ] Add more checks
 - [ ] Possibly add in controlled variations?
 - [ ] Add triple (maybe more?) checking to determine which are false-positives, or false negatives
+# Installation 
+
+$ sudo apt update && apt upgrade
+
+$ git clone https://github.com/wishihab/userrecon.git
+
+$ cd userrecon
+
+$ ./userrecon.sh
+
+### This tool has been tested in many os like parrot os , kali linux ,ubuntu os all of them works perfectly fine  !
